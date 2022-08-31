@@ -34,8 +34,7 @@ jobs:
         with:
           customImage: 'unityci/editor:2020.3.26f1-base-1.0.0'  
           projectPath: ${{ matrix.projectPath }}
-          targetPlatform: ${{ matrix.targetPlatform }}
-          unityVersion: ${{ matrix.unityVersion }}
+          targetPlatform: ${{ matrix.targetPlatform }} # unityVersion: ${{ matrix.unityVersion }}
           buildName: ${{ matrix.projectName }}
           customParameters: -CompressWithLz4HC
       - uses: actions/upload-artifact@v2
