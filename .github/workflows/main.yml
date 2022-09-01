@@ -34,7 +34,8 @@ jobs:
         with:
           customImage: 'unityci/editor:ubuntu-2020.3.26f1-windows-mono-1.0.1'  
           projectPath: ${{ matrix.projectPath }}
-          targetPlatform: ${{ matrix.targetPlatform }} # unityVersion: ${{ matrix.unityVersion }}
+          targetPlatform: ${{ matrix.targetPlatform }}
+          unityVersion: ${{ matrix.unityVersion }}
           buildName: ${{ matrix.projectName }}
           customParameters: -CompressWithLz4HC
           allowDirtyBuild: true
