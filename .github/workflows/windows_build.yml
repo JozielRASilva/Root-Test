@@ -4,7 +4,7 @@ on:
 jobs:
   buildForWindows:
     name: Build ${{matrix.projectName}} for ${{ matrix.targetPlatform }}
-    runs-on: windows-base
+    runs-on: windows-2019
     strategy:
       fail-fast: false
       matrix:
