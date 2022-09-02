@@ -30,7 +30,7 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
           unityVersion: ${{ matrix.unityVersion }}
           buildName: ${{ matrix.projectName }}
-          customParameters: -CompressWithLz4HC
+          customParameters: -CompressWithLz4
       - uses: actions/upload-artifact@v2
         with:
           name: ${{matrix.projectName}}
