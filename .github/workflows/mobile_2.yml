@@ -1,4 +1,4 @@
-name: Mobile Build project
+name: V Mobile Build project 
 on: 
  workflow_dispatch: {}
 jobs:
