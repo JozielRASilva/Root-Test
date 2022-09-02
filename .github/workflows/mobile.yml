@@ -2,9 +2,9 @@ name: Generate Mobile Build
 
 on: 
  workflow_dispatch: {}
- push:
-   branches:
-   - build-mobile
+ #push:
+ #  branches:
+ #  - build-mobile
  #schedule: 
   #- cron: '0 3 * * 1,3'
   
